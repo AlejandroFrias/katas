@@ -9,7 +9,6 @@ import { bowling } from './bowling'
 describe('bowling', () => {
     it('exists', () => {
         expect(bowling).toBeDefined()
-
         expect(bowling([])).toEqual(expect.any(Number))
     })
     it('it returns score of 1 when only knocked down one pin', () => {
